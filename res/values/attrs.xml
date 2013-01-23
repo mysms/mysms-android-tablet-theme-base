@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<attr name="isUpdate" format="boolean" />
+
+	<attr name="messageEditorBackground" format="reference" />
+	<attr name="attachmentBackground" format="reference" />
+	<attr name="attachmentsBackground" format="reference" />
+	<attr name="sheetBackground" format="reference|color" />
+	<attr name="routingInviteIcon" format="reference" />
+
+	<attr name="conversationListItemNameStyle" format="reference" />
+	<attr name="conversationListItemSnippetStyle" format="reference" />
+	<attr name="conversationListAttachmentDrawable" format="reference" />
+
+	<declare-styleable name="conversationListItemName">
+		<attr name="android:textColor" />
+	</declare-styleable>
+
+	<declare-styleable name="conversationListItemSnippet">
+		<attr name="android:textColor" />
+	</declare-styleable>
+</resources>
