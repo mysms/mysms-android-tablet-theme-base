@@ -13,13 +13,11 @@
 	<attr name="conversationListItemNameStyle" format="reference" />
 	<attr name="conversationListItemSnippetStyle" format="reference" />
 	<attr name="conversationListAttachmentDrawable" format="reference" />
-	
 
 	<attr name="popupListBackground" format="reference|color" />
 	<attr name="actionbarBackground" format="reference|color" />
 	<attr name="messageListGroupHeaderStyle" format="reference|color" />
-	<attr name="conversationDetailBackgroundStyle" format="reference" />
-	
+
 	<declare-styleable name="conversationListItemName">
 		<attr name="android:textColor" />
 	</declare-styleable>
