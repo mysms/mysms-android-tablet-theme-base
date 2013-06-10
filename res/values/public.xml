@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<public type="attr" name="isUpdate" id="0x7f010000" />
+
+	<public type="attr" name="messageEditorBackground" id="0x7f010001" />
+	<public type="attr" name="attachmentBackground" id="0x7f010002" />
+	<public type="attr" name="attachmentsBackground" id="0x7f010003" />
+	<public type="attr" name="sheetBackground" id="0x7f010004" />
+	<public type="attr" name="composeMessageBackground" id="0x7f010005" />
+	<public type="attr" name="routingInviteIcon" id="0x7f010006" />
+	<public type="attr" name="messageListDateSeparatorStyle" id="0x7f010007" />
+
+	<public type="attr" name="conversationListItemNameStyle" id="0x7f010008" />
+	<public type="attr" name="conversationListItemSnippetStyle" id="0x7f010009" />
+	<public type="attr" name="conversationListAttachmentDrawable" id="0x7f01000a" />
+
+	<public type="attr" name="popupListBackground" id="0x7f01000b" />
+	<public type="attr" name="actionbarBackground" id="0x7f01000c" />
+</resources>
