@@ -1,0 +1,61 @@
+apply plugin: 'android-library'
+apply plugin: 'maven'
+
+group = 'com.mysms.android'
+archivesBaseName = 'mysms-android-tablet-theme-base'
+version = '1.0'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.4.2'
+    }
+}
+
+dependencies {
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17"
+
+    defaultConfig {
+        minSdkVersion 12
+        targetSdkVersion 17
+        versionName = version
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        instrumentTest.setRoot('tests')
+    }
+}
+
+
+if (!hasProperty('uploadRepositoryUri')) project.ext.uploadRepositoryUri = ''
+if (!hasProperty('uploadSnapshotRepositoryUri')) project.ext.uploadSnapshotRepositoryUri = ''
+if (!hasProperty('uploadUser')) project.ext.uploadUser = ''
+if (!hasProperty('uploadPassword')) project.ext.uploadPassword = ''
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri(uploadRepositoryUri)) {
+                authentication(userName: uploadUser, password: uploadPassword)
+            }
+            snapshotRepository(url: uri(uploadSnapshotRepositoryUri)) {
+                authentication(userName: uploadUser, password: uploadPassword)
+            }
+        }
+    }
+}
