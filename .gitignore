@@ -1,4 +1,5 @@
-local.properties
+/local.properties
+/.gradle
 /gen
 /assets
 /bin
