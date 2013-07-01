@@ -27,6 +27,9 @@
 	<attr name="feedbackMailIcon" format="reference" />
 	<attr name="feedbackFooterStyle" format="reference" />
 
+	<attr name="typingActivatedDrawable" format="reference" />
+	<attr name="typingNotActivatedDrawable" format="reference" />
+
 	<declare-styleable name="conversationListItemName">
 		<attr name="android:textColor" />
 	</declare-styleable>

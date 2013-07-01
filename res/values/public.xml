@@ -17,9 +17,11 @@
 	<public type="attr" name="popupListBackground" id="0x7f01000b" />
 	<public type="attr" name="actionbarBackground" id="0x7f01000c" />
 
-
 	<public type="attr" name="feedbackLikeIcon" id="0x7f01000d" />
 	<public type="attr" name="feedbackProblemIcon" id="0x7f01000e" />
 	<public type="attr" name="feedbackMailIcon" id="0x7f01000f" />
 	<public type="attr" name="feedbackFooterStyle" id="0x7f010010" />
+
+	<public type="attr" name="typingActivatedDrawable" id="0x7f010011" />
+	<public type="attr" name="typingNotActivatedDrawable" id="0x7f010012" />
 </resources>
