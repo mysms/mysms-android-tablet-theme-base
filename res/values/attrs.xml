@@ -30,6 +30,12 @@
 	<attr name="typingActivatedDrawable" format="reference" />
 	<attr name="typingNotActivatedDrawable" format="reference" />
 
+	<attr name="emojiKeyboardIconDrawable" format="reference" />
+	<attr name="emojiKeyboardCloseDrawable" format="reference" />
+	<attr name="emojiSmileyButtonDrawable" format="reference" />
+
+	<attr name="composeBackgroundColor" format="reference|color" />
+
 	<declare-styleable name="conversationListItemName">
 		<attr name="android:textColor" />
 	</declare-styleable>

@@ -24,4 +24,10 @@
 
 	<public type="attr" name="typingActivatedDrawable" id="0x7f010011" />
 	<public type="attr" name="typingNotActivatedDrawable" id="0x7f010012" />
+	
+	<public type="attr" name="emojiKeyboardIconDrawable" id="0x7f010013" />
+	<public type="attr" name="emojiKeyboardCloseDrawable" id="0x7f010014" />
+	<public type="attr" name="emojiSmileyButtonDrawable" id="0x7f010015" />
+
+	<public type="attr" name="composeBackgroundColor" id="0x7f010016" />
 </resources>
