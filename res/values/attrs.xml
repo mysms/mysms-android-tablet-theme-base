@@ -36,6 +36,13 @@
 
 	<attr name="composeBackgroundColor" format="reference|color" />
 
+	<attr name="bubbleIncomingDrawable" format="reference" />
+	<attr name="bubbleOutgoingDrawable" format="reference" />
+	<attr name="messageIncomingBodyColor" format="color" />
+	<attr name="messageIncomingDateColor" format="color" />
+	<attr name="messageOutgoingBodyColor" format="color" />
+	<attr name="messageOutgoingDateColor" format="color" />
+
 	<declare-styleable name="conversationListItemName">
 		<attr name="android:textColor" />
 	</declare-styleable>

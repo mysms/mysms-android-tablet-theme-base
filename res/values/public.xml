@@ -30,4 +30,11 @@
 	<public type="attr" name="emojiSmileyButtonDrawable" id="0x7f010015" />
 
 	<public type="attr" name="composeBackgroundColor" id="0x7f010016" />
+
+	<public type="attr" name="bubbleIncomingDrawable" id="0x7f010017" />
+	<public type="attr" name="bubbleOutgoingDrawable" id="0x7f010018" />
+	<public type="attr" name="messageIncomingBodyColor" id="0x7f010019" />
+	<public type="attr" name="messageIncomingDateColor" id="0x7f01001a" />
+	<public type="attr" name="messageOutgoingBodyColor" id="0x7f01001b" />
+	<public type="attr" name="messageOutgoingDateColor" id="0x7f01001c" />
 </resources>
