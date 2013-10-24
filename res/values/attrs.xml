@@ -43,6 +43,15 @@
 	<attr name="messageOutgoingBodyColor" format="color" />
 	<attr name="messageOutgoingDateColor" format="color" />
 
+
+	<attr name="callListItemNameStyle" format="reference" />
+	<attr name="callListItemDurationStyle" format="reference" />
+	<attr name="callListItemDateStyle" format="reference" />
+	<attr name="callListDateSeparatorStyle" format="reference" />
+
+	<attr name="callPopupNameStyle" format="reference" />
+	<attr name="callPopupNumberStyle" format="reference" />
+
 	<declare-styleable name="conversationListItemName">
 		<attr name="android:textColor" />
 	</declare-styleable>
@@ -58,6 +67,31 @@
 	</declare-styleable>
 
 	<declare-styleable name="feedbackFooter">
+		<attr name="android:textColor" />
+	</declare-styleable>
+
+	<declare-styleable name="callListItemName">
+		<attr name="android:textColor" />
+	</declare-styleable>
+
+	<declare-styleable name="callListItemDuration">
+		<attr name="android:textColor" />
+	</declare-styleable>
+
+	<declare-styleable name="callListItemDate">
+		<attr name="android:textColor" />
+	</declare-styleable>
+
+	<declare-styleable name="callListDateSeparator">
+		<attr name="android:textColor" />
+		<attr name="android:background" />
+	</declare-styleable>
+
+	<declare-styleable name="callPopupName">
+		<attr name="android:textColor" />
+	</declare-styleable>
+
+	<declare-styleable name="callPopupNumber">
 		<attr name="android:textColor" />
 	</declare-styleable>
 </resources>

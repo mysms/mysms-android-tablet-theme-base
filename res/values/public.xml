@@ -37,4 +37,12 @@
 	<public type="attr" name="messageIncomingDateColor" id="0x7f01001a" />
 	<public type="attr" name="messageOutgoingBodyColor" id="0x7f01001b" />
 	<public type="attr" name="messageOutgoingDateColor" id="0x7f01001c" />
+
+	<public type="attr" name="callListItemNameStyle" id="0x7f01001d" />
+	<public type="attr" name="callListItemDurationStyle" id="0x7f01001e" />
+	<public type="attr" name="callListItemDateStyle" id="0x7f01001f" />
+	<public type="attr" name="callListDateSeparatorStyle" id="0x7f010020" />
+
+	<public type="attr" name="callPopupNameStyle" id="0x7f010021" />
+	<public type="attr" name="callPopupNumberStyle" id="0x7f010022" />
 </resources>
