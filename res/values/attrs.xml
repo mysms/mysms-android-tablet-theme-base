@@ -43,7 +43,6 @@
 	<attr name="messageOutgoingBodyColor" format="color" />
 	<attr name="messageOutgoingDateColor" format="color" />
 
-
 	<attr name="callListItemNameStyle" format="reference" />
 	<attr name="callListItemDurationStyle" format="reference" />
 	<attr name="callListItemDateStyle" format="reference" />
@@ -51,6 +50,8 @@
 
 	<attr name="callPopupNameStyle" format="reference" />
 	<attr name="callPopupNumberStyle" format="reference" />
+
+	<attr name="activeCallBackgroundColor" format="reference|color" />
 
 	<declare-styleable name="conversationListItemName">
 		<attr name="android:textColor" />

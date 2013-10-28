@@ -45,4 +45,6 @@
 
 	<public type="attr" name="callPopupNameStyle" id="0x7f010021" />
 	<public type="attr" name="callPopupNumberStyle" id="0x7f010022" />
+
+	<public type="attr" name="activeCallBackgroundColor" id="0x7f010023" />
 </resources>
